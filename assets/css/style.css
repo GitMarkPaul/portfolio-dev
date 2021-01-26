@@ -1,0 +1,193 @@
+/* 
+    Title: MP - Portfolio
+    Author: Mark Paul Acebo Cañeda
+    Version: 1.0
+*/
+
+/* Global */
+
+:root {
+    /* Background Colors */
+    --mp-bg-primary: #fffafa;
+
+    /* Color Variables */
+    --mp-color-white: #ffffff;
+    --mp-color-black: #000000;
+    --mp-color-danger: #FB4C47;
+    --mp-color-gray: #242424;
+
+    /* Global Font */
+    --mp-font-poppins: "Poppins", sans-serif;
+}
+
+html {
+   height: 100%;
+}
+
+body {
+	background-color: var(--mp-bg-primary);
+	color: #272b41;
+    font-family: var(--mp-font-poppins);
+	font-size: 0.9375rem;
+    height: 100%;
+	overflow-x: hidden;
+}
+
+/* Utilities */
+
+/* Header Typography */
+h1, h2, h3, h4, h5, h6 { color: #272b41; font-weight: 500; }
+ul { list-style: none; }
+a {  }
+
+h1 { font-size: 2.25rem; }
+h2 { font-size: 1.875rem; }
+h3 { font-size: 1.5rem; }
+h4 { font-size: 1.125rem; }
+h5 { font-size: 1rem; }
+h6 { font-size: 0.875rem; }
+
+/* Paddings */
+
+.pl-1 { padding-left: 1em; }
+.pl-2 { padding-left: 2em; }
+.pl-3 { padding-left: 3em; }
+.pl-4 { padding-left: 4em; }
+.pl-5 { padding-left: 5em; }
+
+.pr-1 { padding-right: 1em; }
+.pr-2 { padding-right: 2em; }
+.pr-3 { padding-right: 3em; }
+.pr-4 { padding-right: 4em; }
+.pr-5 { padding-right: 5em; }
+
+.pt-1 { padding-top: 1em; }
+.pt-2 { padding-top: 2em; }
+.pt-3 { padding-top: 3em; }
+.pt-4 { padding-top: 4em; }
+.pt-5 { padding-top: 5em; }
+
+.pb-1 { padding-bottom: 1em; }
+.pb-2 { padding-bottom: 2em; }
+.pb-3 { padding-bottom: 3em; }
+.pb-4 { padding-bottom: 4em; }
+.pb-5 { padding-bottom: 5em; }
+
+/* Margins */
+
+.ml-1 { margin-left: 1em !important; }
+.ml-2 { margin-left: 2em !important; }
+.ml-3 { margin-left: 3em !important; }
+.ml-4 { margin-left: 4em !important; }
+.ml-5 { margin-left: 5em !important; }
+
+.mr-1 { margin-right: 1em !important; }
+.mr-2 { margin-right: 2em !important; }
+.mr-3 { margin-right: 3em !important; }
+.mr-4 { margin-right: 4em !important; }
+.mr-5 { margin-right: 5em !important; }
+
+.mt-1 { margin-top: 1em !important; }
+.mt-2 { margin-top: 2em !important; }
+.mt-3 { margin-top: 3em !important; }
+.mt-4 { margin-top: 4em !important; }
+.mt-5 { margin-top: 5em !important; }
+
+.mb-1 { margin-bottom: 1em; }
+.mb-2 { margin-bottom: 2em; }
+.mb-3 { margin-bottom: 3em; }
+.mb-4 { margin-bottom: 4em; }
+.mb-5 { margin-bottom: 5em; }
+
+/* Buttons */
+
+.btn-danger {
+	background-color: var(--mp-color-danger);
+	box-shadow: 0px 8px 87px rgba(0, 0, 0, 0.1);
+	border-radius: 65px;
+	color: var(--mp-color-white);
+    padding: 12px 50px;
+    border: none;
+}
+
+.btn-danger:hover {
+	background-color: #242424;
+}
+
+/* Navbar Header */
+
+.main-header {
+    padding: 20px;
+}
+
+.main-header .navbar .navbar-flex-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.navbar-flex-items .navbar-item-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-flex-items .navbar-item-menu > li {
+    margin-left: 2.5rem;
+}
+
+.navbar-flex-items .navbar-item-menu > li > a {
+   color: var(--mp-color-gray);
+   font-size: 18px;
+}
+
+.navbar .navbar-brand  {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.navbar .navbar-brand > span {
+    font-size: 26px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+/* Main Wrapper */
+
+.page-wrapper {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* Banner */
+
+.banner-flex-items {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.banner-flex-items .home-banner-content > h1 {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 50px;
+	line-height: 70px;
+	text-transform: capitalize;
+	color: var(--mp-color-gray);
+}
+
+.banner-flex-items .home-banner-content > p {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 28px;
+	text-transform: capitalize;
+	color: #4B4F51;
+	margin-bottom: 2.5em;
+}
+
+.banner-flex-items .home-banner-img {
+	width: 600px;
+	height: 600px;
+}
