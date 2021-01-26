@@ -193,6 +193,19 @@ h6 { font-size: 0.875rem; }
 	height: 600px;
 }
 
+/* Section Header */
+.section-header {
+   padding-bottom: 2em;
+}
+
+.section-header > h2 {
+    font-weight: 600;
+}
+
+.section-header > p {
+   font-size: 16px;
+}
+
 /* Skill Set */
 
 .section-skill-set {
