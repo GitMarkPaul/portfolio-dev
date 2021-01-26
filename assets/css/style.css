@@ -13,6 +13,7 @@
     /* Color Variables */
     --mp-color-white: #ffffff;
     --mp-color-black: #000000;
+    --mp-color-green: #035755;
     --mp-color-danger: #FB4C47;
     --mp-color-gray: #242424;
 
@@ -155,7 +156,7 @@ h6 { font-size: 0.875rem; }
 
 /* Main Wrapper */
 
-.page-wrapper {
+.main-wrapper {
     padding-left: 20px;
     padding-right: 20px;
 }
@@ -190,4 +191,58 @@ h6 { font-size: 0.875rem; }
 .banner-flex-items .home-banner-img {
 	width: 600px;
 	height: 600px;
+}
+
+/* Skill Set */
+
+.section-skill-set {
+    background: var(--mp-color-white);
+    padding: 100px 0 100px;
+}
+
+.section-skill-set .card-skill-set {
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    border: none;
+    padding: 10px;
+    margin-top: 1.5em;
+}
+
+.section-skill-set .card-skill-set .card-body {
+    display: grid;
+    justify-items: center;
+    text-align: center;
+}
+
+.section-skill-set .card-skill-set .card-body > img {
+    width: 60px;
+}
+
+.section-skill-set .card-skill-set .card-body > span {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 21px;
+    margin-top: 1em;
+}
+
+
+
+/* Footer */
+
+.main-footer {
+	padding: 30px;
+	background: var(--mp-color-green);
+}
+
+.main-footer .footer-bottom {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.main-footer .footer-bottom > span {
+    font-size: 14px;
+    font-weight: normal;
+	color: var(--mp-color-white);
 }
