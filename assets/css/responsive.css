@@ -4,6 +4,11 @@
     .banner-flex-items .home-banner-img {
         width: 400px;
     }
+
+    /* Skill Set */
+    .section-skill-set .skill-set-img-stat {
+        width: 250px;
+    }
 }
 
 @media only screen and (max-width: 768px) {
@@ -21,6 +26,11 @@
 
     .banner-flex-items .home-banner-img {
         width: 300px;
+    }
+
+    /* Skill Set */
+    .section-skill-set .skill-set-img-stat {
+        display: none;
     }
 }
 
@@ -48,6 +58,11 @@
     }
 
     .banner-flex-items .home-banner-img {
+        display: none;
+    }
+
+    /* Skill Set */
+    .section-skill-set .skill-set-img-stat {
         display: none;
     }
 }
