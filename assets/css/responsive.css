@@ -1,8 +1,20 @@
+@media only screen and (max-width: 1440px) {
+
+    /* Home Banner */
+    .main-header .navbar .navbar-flex-items .toggle-dark-mode {
+        display: none;
+    }
+}
+
 @media only screen and (max-width: 1024px) {
 
     /* Home Banner */
     .banner-flex-items .home-banner-img {
         width: 400px;
+    }
+
+    .main-header .navbar .navbar-flex-items .toggle-dark-mode {
+        display: none;
     }
 
     /* Skill Set */
@@ -17,6 +29,10 @@
     .banner-flex-items .home-banner-content > h1 {
         font-size: 40px;
         line-height: 55px;
+    }
+
+    .main-header .navbar .navbar-flex-items .toggle-dark-mode {
+        display: none;
     }
 
     .banner-flex-items .home-banner-content > p {
@@ -40,6 +56,10 @@
     /* Navbar Header */
     .navbar-flex-items .navbar-item-menu {
         display: none;
+    }
+
+    .main-header .navbar .navbar-flex-items .toggle-dark-mode {
+        display: contents;
     }
 
     /* Home Banner */
