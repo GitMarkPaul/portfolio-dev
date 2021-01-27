@@ -109,6 +109,7 @@ h6 { font-size: 0.875rem; }
 	color: var(--mp-color-white);
     padding: 12px 50px;
     border: none;
+    isolation: isolate;
 }
 
 .btn-danger:hover {
@@ -146,6 +147,12 @@ h6 { font-size: 0.875rem; }
    display: flex;
    align-items: center;
    justify-content: center;
+}
+
+.navbar .navbar-brand > i {
+    font-size: 35px;
+    font-weight: bold;
+    line-height: 0;
 }
 
 .navbar .navbar-brand > span {
@@ -233,8 +240,8 @@ h6 { font-size: 0.875rem; }
     text-align: center;
 }
 
-.section-skill-set .card-skill-set .card-body > img {
-    width: 60px;
+.section-skill-set .card-skill-set .card-body > i {
+    font-size: 35px;
 }
 
 .section-skill-set .card-skill-set .card-body > span {
@@ -245,12 +252,12 @@ h6 { font-size: 0.875rem; }
 }
 
 
-
 /* Footer */
 
 .main-footer {
 	padding: 30px;
-	background: var(--mp-color-green);
+    background: var(--mp-color-green);
+    isolation: isolate;
 }
 
 .main-footer .footer-bottom {
@@ -264,4 +271,37 @@ h6 { font-size: 0.875rem; }
     font-size: 14px;
     font-weight: normal;
 	color: var(--mp-color-white);
+}
+
+/* Darkmode */
+.darkmode-toggle {
+    z-index: 9;
+}
+
+.darkmode--activated i {
+    color: var(--mp-color-white);
+}
+
+.darkmode--activated .navbar-brand > span {
+    color: var(--mp-color-white);
+}
+
+.darkmode--activated .navbar-flex-items .navbar-item-menu > li > a {
+    color: var(--mp-color-white);
+}
+
+.darkmode--activated .card {
+    background: var(--mp-color-gray);
+}
+
+.darkmode--activated span {
+    color: var(--mp-color-white);
+}
+
+.darkmode--activated .main-footer {
+    background: var(--mp-color-gray);
+}
+
+.darkmode--activated .main-footer .footer-bottom > span {
+    color: var(--mp-color-white);
 }
