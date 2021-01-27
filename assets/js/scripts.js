@@ -27,3 +27,5 @@ const darkmode = new Darkmode(options);
 
 darkmode.showWidget();
 
+// Get the Current Year
+document.getElementById("currentYear").innerHTML = new Date().getFullYear();
