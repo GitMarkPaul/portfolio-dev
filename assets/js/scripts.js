@@ -1,3 +1,4 @@
+// Dark Mode
 const options = {
     bottom: '32px', // default: '32px'
     right: '32px', // default: '32px'
@@ -10,7 +11,8 @@ const options = {
     saveInCookies: true, // default: true,
     label: '🌓', // default: ''
     autoMatchOsTheme: true // default: true
-  }
+}
   
-  const darkmode = new Darkmode(options);
-  darkmode.showWidget();
+const darkmode = new Darkmode(options);
+
+darkmode.showWidget();
