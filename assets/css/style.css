@@ -46,8 +46,8 @@ body {
 
 /* Header Typography */
 h1, h2, h3, h4, h5, h6 { color: #272b41; font-weight: 500; }
-ul { list-style: none; }
-a {  }
+ul { list-style: none; padding: 0px; }
+a { text-decoration: none; color: var(--mp-color-gray); }
 
 h1 { font-size: 2.25rem; }
 h2 { font-size: 1.875rem; }
@@ -223,6 +223,7 @@ h6 { font-size: 0.875rem; }
 
 .section-header > p {
    font-size: 16px;
+   line-height: 26px;
 }
 
 /* Skill Set */
@@ -255,6 +256,27 @@ h6 { font-size: 0.875rem; }
     font-weight: 500;
     line-height: 21px;
     margin-top: 1em;
+}
+
+.contact-flex-items {
+    margin-top: 2.5em;
+}
+
+.contact-flex-items > li {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.contact-flex-items > li > i {
+   line-height: 0;
+   font-size: 20px;
+}
+
+.contact-flex-items > li .contact-item {
+    padding-left: 1em;
+    font-size: 15px;
 }
 
 
@@ -291,6 +313,10 @@ h6 { font-size: 0.875rem; }
 .darkmode--activated i {
     color: var(--mp-color-white);
 }
+
+.darkmode--activated .contact-flex-items > li > i {
+    color: var(--mp-color-black);
+ }
 
 .darkmode--activated .navbar-brand > span {
     color: var(--mp-color-white);
