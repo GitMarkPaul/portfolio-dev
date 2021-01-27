@@ -278,6 +278,10 @@ h6 { font-size: 0.875rem; }
     z-index: 9;
 }
 
+.darkmode--activated .section-skill-set {
+    background: transparent;
+}
+
 .darkmode--activated i {
     color: var(--mp-color-white);
 }
@@ -296,6 +300,10 @@ h6 { font-size: 0.875rem; }
 
 .darkmode--activated span {
     color: var(--mp-color-white);
+}
+
+.darkmode--activated h2, p {
+    color: var(--mp-color-black);
 }
 
 .darkmode--activated .main-footer {
