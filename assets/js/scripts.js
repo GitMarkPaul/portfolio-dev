@@ -1,3 +1,13 @@
+// Sticky Header
+$(window).scroll(function () {
+    if ($(window).scrollTop() > 10) {
+        $('.main-header').addClass('header-fixed');
+    }
+    if ($(window).scrollTop() < 11) {
+        $('.main-header').removeClass('header-fixed');
+    }
+});
+
 // Dark Mode
 const options = {
     bottom: '32px', // default: '32px'
