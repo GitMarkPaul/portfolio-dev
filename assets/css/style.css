@@ -21,6 +21,14 @@
     --mp-font-poppins: "Poppins", sans-serif;
 }
 
+* {
+	margin: 0px;
+	padding: 0px;
+	border: none;
+	outline: none;
+	font-size: 100%;
+}
+
 html {
    height: 100%;
 }
@@ -119,7 +127,7 @@ h6 { font-size: 0.875rem; }
 /* Navbar Header */
 
 .main-header {
-    padding: 20px;
+    padding: 20px 0;
 }
 
 .main-header .navbar .navbar-flex-items {
@@ -165,13 +173,6 @@ h6 { font-size: 0.875rem; }
     font-size: 23px;
     line-height: 0;
     color: var(--mp-color-gray);
-}
-
-/* Main Wrapper */
-
-.main-wrapper {
-    padding-left: 20px;
-    padding-right: 20px;
 }
 
 /* Banner */
