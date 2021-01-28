@@ -18,7 +18,7 @@
     }
 
     /* Skill Set */
-    .section-skill-set .skill-set-img-stat {
+    section .skill-set-img-stat {
         width: 250px;
     }
 }
@@ -45,7 +45,7 @@
     }
 
     /* Skill Set */
-    .section-skill-set .skill-set-img-stat {
+    section .skill-set-img-stat {
         display: none;
     }
 }
@@ -81,7 +81,7 @@
     }
 
     /* Skill Set */
-    .section-skill-set .skill-set-img-stat {
+    section .skill-set-img-stat {
         display: none;
     }
 }
