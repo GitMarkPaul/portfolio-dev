@@ -170,10 +170,8 @@ h6 { font-size: 0.875rem; }
    justify-content: center;
 }
 
-.navbar .navbar-brand > i {
-    font-size: 35px;
-    font-weight: bold;
-    line-height: 0;
+.navbar .navbar-brand > img {
+    width: 40px;
 }
 
 .navbar .navbar-brand > span {
@@ -238,10 +236,17 @@ h6 { font-size: 0.875rem; }
    line-height: 26px;
 }
 
+/* About Section */
+
+.about-section {
+  background: var(--mp-color-white);
+  padding: 80px 0 80px;
+}
+
 /* Skill Set */
 
 .section-skill-set {
-    background: var(--mp-color-white);
+    background: var(--mp-bg-primary);
     padding: 80px 0 80px;
 }
 
@@ -260,7 +265,7 @@ h6 { font-size: 0.875rem; }
 }
 
 .section-skill-set .card-skill-set .card-body > i {
-    font-size: 35px;
+    font-size: 45px;
 }
 
 .section-skill-set .card-skill-set .card-body > span {
@@ -362,6 +367,59 @@ h6 { font-size: 0.875rem; }
     color: var(--mp-color-white);
 }
 
+/* Categories */
+
+.categories-wrapper {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.categories-wrapper .category-content {
+    box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    padding: 8px 12px;
+}
+
+.categories-wrapper .category-content .category-item {
+    margin: 25px 0;
+}
+
+.categories-wrapper .category-content .category-item .category-item-name {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.categories-wrapper .category-content .category-item .category-item-name > i {
+    font-size: 18px;
+    line-height: 0;
+}
+
+.categories-wrapper .category-sub-content {
+    box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    padding: 8px 12px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 355px;
+    top: 0;
+    visibility: hidden;
+    -ms-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.categories-wrapper .category-content .category-item:hover > ul {
+  opacity: 1;
+   visibility: visible;
+   -webkit-animation: scale-in-ver-top 0.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: scale-in-ver-top 0.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+
+
 /**
  * ----------------------------------------
  * animation scale-in-ver-top
@@ -400,3 +458,6 @@ h6 { font-size: 0.875rem; }
 	  opacity: 1;
 	}
 }
+
+
+
