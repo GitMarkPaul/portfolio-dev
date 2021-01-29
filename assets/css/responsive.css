@@ -23,6 +23,31 @@
     }
 }
 
+
+@media only screen and (max-width: 991px) {
+
+    /* Home Banner */
+    .banner-flex-items .home-banner-img {
+        width: 300px;
+    }
+
+    .banner-flex-items .home-banner-content > h1 {
+        font-size: 30px;
+        line-height: 50px;
+    }
+
+    .banner-flex-items .home-banner-content > p {
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    /* Skill Set */
+    section .skill-set-img-stat {
+       display: none;
+    }
+}
+
+
 @media only screen and (max-width: 768px) {
 
     /* Home Banner */
