@@ -254,18 +254,18 @@ h6 { font-size: 0.875rem; }
     box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
     border-radius: 12px;
     border: none;
-    padding: 10px;
-    margin-top: 1.5em;
 }
 
 .section-skill-set .card-skill-set .card-body {
     display: grid;
     justify-items: center;
     text-align: center;
+    padding: 30px;
 }
 
 .section-skill-set .card-skill-set .card-body > i {
-    font-size: 45px;
+    font-size: 40px;
+    line-height: 0;
 }
 
 .section-skill-set .card-skill-set .card-body > span {
