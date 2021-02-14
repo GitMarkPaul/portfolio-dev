@@ -1,4 +1,4 @@
-@media only screen and (max-width: 1440px) {
+@media(max-width: 1440px) {
 
     /* Home Banner */
     .main-header .navbar .navbar-flex-items .toggle-dark-mode {
@@ -6,7 +6,7 @@
     }
 }
 
-@media only screen and (max-width: 1024px) {
+@media(max-width: 1200px) {
 
     /* Home Banner */
     .banner-flex-items .home-banner-img {
@@ -24,7 +24,7 @@
 }
 
 
-@media only screen and (max-width: 991px) {
+@media(max-width: 992px) {
 
     /* Home Banner */
     .banner-flex-items .home-banner-img {
@@ -48,7 +48,7 @@
 }
 
 
-@media only screen and (max-width: 768px) {
+@media(max-width: 768px) {
 
     /* Home Banner */
     .banner-flex-items .home-banner-content > h1 {
@@ -75,7 +75,7 @@
     }
 }
 
-@media only screen and (max-width: 767px) {
+@media(max-width: 576px) {
 
     /* Navbar Header */
     .navbar-flex-items .navbar-item-menu {

@@ -9,16 +9,16 @@
 :root {
     /* Background Colors */
     --mp-bg-primary: #fffafa;
-
     /* Color Variables */
     --mp-color-white: #ffffff;
     --mp-color-black: #000000;
     --mp-color-green: #035755;
     --mp-color-danger: #FB4C47;
     --mp-color-gray: #242424;
-
     /* Global Font */
     --mp-font-poppins: "Poppins", sans-serif;
+    /* Box Shadow */
+    --mp-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);
 }
 
 * {
@@ -137,8 +137,8 @@ h6 { font-size: 0.875rem; }
     background: var(--mp-color-white);
     z-index: 99;
     padding: 10px 0;
-    -webkit-box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.1);
-    box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: var(--mp-box-shadow);
+    box-shadow: var(--mp-box-shadow);
     -webkit-animation: scale-in-ver-top 0.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 	        animation: scale-in-ver-top 0.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
@@ -211,8 +211,7 @@ h6 { font-size: 0.875rem; }
 	font-style: normal;
 	font-weight: normal;
 	font-size: 18px;
-	line-height: 28px;
-	text-transform: capitalize;
+	line-height: 30px;
 	color: #4B4F51;
 	margin-bottom: 2.5em;
 }
@@ -251,7 +250,7 @@ h6 { font-size: 0.875rem; }
 }
 
 .section-skill-set .card-skill-set {
-    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    box-shadow: var(--mp-box-shadow);
     border-radius: 12px;
     border: none;
 }
@@ -376,7 +375,7 @@ h6 { font-size: 0.875rem; }
 }
 
 .categories-wrapper .category-content {
-    box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: var(--mp-box-shadow);
     width: 350px;
     padding: 8px 12px;
 }
@@ -397,7 +396,7 @@ h6 { font-size: 0.875rem; }
 }
 
 .categories-wrapper .category-sub-content {
-    box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: var(--mp-box-shadow);
     width: 350px;
     padding: 8px 12px;
     position: absolute;
