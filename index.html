@@ -5,6 +5,7 @@
     <meta http-equiv="Content-Type" content="text/html;" charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0" />
     <meta name="keywords" content="Web Developer, Portfolio" />
+    <meta name="description" content="Hello, I'm Mark Paul Cañeda, a Full Stack web developer and a goal-oriented Full Stack Web Developer with strong commitment to collaboration and problem-solving." />
     <meta name="author" content="Mark Paul Acebo Cañeda" />
     <meta name="copyright" content="Mark Paul Acebo Cañeda Portfolio" />
     <meta name="robots" content="all" />
@@ -13,12 +14,13 @@
     <meta property="og:type" content="portfolio website" />
     <meta property="og:title" content="Mark Paul Acebo Cañeda" />
     <meta property="og:description" content="Design makes anything when you call myself" />
-    <meta property="og:image" content="assets/media/banner-screen.jpg" />
-    <meta property="og:image:type" content="image/jpg">
+    <meta property="og:image" content="assets/media/logo-brand.png" />
+    <meta property="og:image:type" content="image/png">
     <meta property="og:image:width" content="300">
     <meta property="og:image:height" content="300">
     <meta property="og:url" content="https://gitmarkpaul.github.io/portfolio-dev/" />
     <meta property="og:site_name" content="Mark Paul Acebo Cañeda" />
+    <meta name="theme-color" content="#1E003D"/>
     <title>Mark Paul - Codexus</title>
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
@@ -28,10 +30,13 @@
     <!-- Bootstrap Icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
     <!-- Favicon -->
-    <link type="image/x-icon" rel="icon" href="assets/media/logo-brand.svg" />
+    <link type="image/x-icon" rel="icon" href="assets/media/logo-brand.png" />
+    <link rel="apple-touch-icon" href="assets/media/logo-brand.png"/>
     <!-- Custom CSS -->
     <link rel="stylesheet" href="assets/css/style.css" />
     <link rel="stylesheet" href="assets/css/responsive.css" />
+    <link rel="manifest" href="manifest.json" />
+    <link rel="canonical" href="https://gitmarkpaul.github.io/portfolio-dev/" />
 </head>
 <body>
     <header class="main-header">
@@ -199,5 +204,12 @@
     <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
     <script src="assets/js/scripts.js"></script>
+    <script>
+        if('serviceWorker' in navigator){
+          navigator.serviceWorker.register('/service-worker.js');
+        } else {
+          console.log("Service worker is not supported");
+        }
+      </script>
 </body>
 </html>

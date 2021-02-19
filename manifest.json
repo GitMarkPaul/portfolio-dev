@@ -1,0 +1,23 @@
+{
+    "name": "Codexus",
+    "short_name": "Codexus - Portfolio",
+    "start_url": "/",
+    "background_color": "#FFDCB5",
+    "theme_color": "#1E003D",
+    "icons": [
+        {
+            "src": "assets/media/logo-brand-512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "maskable any"
+        },
+        {
+            "src": "assets/media/logo-brand-192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "maskable any"
+        }
+    ],
+    "display": "standalone",
+    "orientation":"portrait"
+}
