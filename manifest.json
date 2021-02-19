@@ -1,7 +1,7 @@
 {
     "name": "Codexus",
     "short_name": "Codexus - Portfolio",
-    "start_url": "/",
+    "start_url": "/?source=pwa",
     "background_color": "#FFDCB5",
     "theme_color": "#1E003D",
     "icons": [
