@@ -1,5 +1,6 @@
 {
-    "name": "Codexus",
+    "name": "MPC - Codexus",
+    "description": "Hi! I'm Mark Paul, I'm a Full Stack Web Developer and Welcome to my Portfolio",
     "short_name": "Codexus - Portfolio",
     "start_url": "./",
     "background_color": "#FFDCB5",
