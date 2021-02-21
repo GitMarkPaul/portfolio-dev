@@ -222,10 +222,6 @@ h6 { font-size: 0.875rem; }
 }
 
 /* Section Header */
-section {
-    padding: 80px 0 80px;
-}
-
 .section-header {
    padding-bottom: 2em;
 }
@@ -243,12 +239,14 @@ section {
 
 .about-section {
   background: var(--mp-color-white);
+  padding: 80px 0 80px;
 }
 
 /* Skill Set */
 
 .section-skill-set {
     background: var(--mp-bg-primary);
+    padding: 80px 0 80px;
 }
 
 .section-skill-set .card-skill-set {
