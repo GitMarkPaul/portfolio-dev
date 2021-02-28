@@ -124,6 +124,17 @@ h6 { font-size: 0.875rem; }
 	background-color: #242424;
 }
 
+.bg-overlay { 
+    position: relative;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    line-height: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /* Navbar Header */
 
 .main-header {
@@ -153,10 +164,11 @@ h6 { font-size: 0.875rem; }
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 0;
 }
 
 .navbar-flex-items .navbar-item-menu > li {
-    margin-left: 2.5rem;
+    margin-left: 1rem;
 }
 
 .navbar-flex-items .navbar-item-menu > li > a {
@@ -367,6 +379,9 @@ h6 { font-size: 0.875rem; }
     color: var(--mp-color-white);
 }
 
+.darkmode--activated .bg-light {
+    background-color: #464646 !important ;
+}
 /* Categories */
 
 .categories-wrapper {
