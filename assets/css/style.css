@@ -108,6 +108,12 @@ h6 { font-size: 0.875rem; }
 .mb-4 { margin-bottom: 4em; }
 .mb-5 { margin-bottom: 5em; }
 
+/* Border Radius */
+
+.br-3 {
+    border-radius: 30px;
+}
+
 /* Buttons */
 
 .btn-danger {
@@ -124,6 +130,8 @@ h6 { font-size: 0.875rem; }
 	background-color: #242424;
 }
 
+/* Overlays */
+
 .bg-overlay { 
     position: relative;
     width: 45px;
@@ -133,6 +141,21 @@ h6 { font-size: 0.875rem; }
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.overlay-front-content {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    transform: translateY(-50%);
+}
+
+.overlay-front-content > span {
+    font-size: 30px;
+    font-weight: 600;
+    color: var(--mp-color-white);
 }
 
 /* Navbar Header */
@@ -284,7 +307,7 @@ h6 { font-size: 0.875rem; }
     font-size: 16px;
     font-weight: 500;
     line-height: 21px;
-    margin-top: 1em;
+    margin-top: 1.5em;
 }
 
 .contact-flex-items {
@@ -432,6 +455,9 @@ h6 { font-size: 0.875rem; }
    -webkit-animation: scale-in-ver-top 0.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 	        animation: scale-in-ver-top 0.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
+
+
+
 
 
 

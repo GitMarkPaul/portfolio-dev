@@ -1,8 +1,6 @@
 {
-    "name": "MPC - Codexus",
-    "author": "Mark Paul Cañeda",
-    "description": "Hi! I'm Mark Paul, I'm a Full Stack Web Developer and Welcome to my Portfolio",
-    "short_name": "Codexus - Portfolio",
+    "name": "Hi! I'm Mark Paul, I'm a Full Stack Web Developer and Welcome to my Portfolio",
+    "short_name": "Full Stack Web Developer | Codexus",
     "start_url": "./",
     "background_color": "#FFDCB5",
     "theme_color": "#1E003D",
@@ -20,6 +18,6 @@
             "purpose": "maskable any"
         }
     ],
-    "display": "standalone",
+    "display": "fullscreen",
     "orientation":"portrait"
 }
