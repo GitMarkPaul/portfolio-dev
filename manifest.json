@@ -3,7 +3,7 @@
     "short_name": "Full Stack Web Developer | Codexus",
     "start_url": "./",
     "background_color": "#FFDCB5",
-    "theme_color": "#1E003D",
+    "theme_color": "#ffffff",
     "icons": [
         {
             "src": "assets/media/logo-brand-512.png",
