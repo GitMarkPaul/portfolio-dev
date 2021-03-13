@@ -31,3 +31,18 @@ darkmode.showWidget();
 document.getElementById("currentYear").innerHTML = new Date().getFullYear();
 
 
+
+const shareBtn = document.getElementById('share');
+
+shareBtn.onclick = async (filesArray) => {
+    if (navigator.canShare) {
+        navigator.share({
+            url: 'https://fireship.io',
+            title: 'PWAs are awesome!',
+            text: 'I learned how to build a PWA today',
+        })
+    }
+}
+
+
+
