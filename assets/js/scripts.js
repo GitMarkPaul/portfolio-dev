@@ -37,9 +37,9 @@ const shareBtn = document.getElementById('share');
 shareBtn.onclick = async (filesArray) => {
     if (navigator.canShare) {
         navigator.share({
-            url: 'https://fireship.io',
-            title: 'PWAs are awesome!',
-            text: 'I learned how to build a PWA today',
+            url: 'https://gitmarkpaul.github.io/portfolio-dev/',
+            title: "Hi!, I'm Mark Paul Cañeda, a Full Stack web developer",
+            text: 'A goal-oriented Full Stack Web Developer with strong commitment to collaboration and problem-solving.',
         })
     }
 }
