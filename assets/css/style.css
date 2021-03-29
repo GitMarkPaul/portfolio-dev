@@ -8,7 +8,7 @@
 
 :root {
     /* Background Colors */
-    --mp-bg-primary: #fffafa;
+    --mp-bg-primary: #f6f6f7;
     /* Color Variables */
     --mp-color-white: #ffffff;
     --mp-color-black: #000000;
@@ -385,11 +385,11 @@ h6 { font-size: 0.875rem; }
     background: var(--mp-color-gray);
 }
 
-.darkmode--activated .section-skill-set {
-    background: transparent;
+.darkmode--activated i {
+    color: var(--mp-color-white);
 }
 
-.darkmode--activated i {
+.darkmode--activated h4 {
     color: var(--mp-color-white);
 }
 
