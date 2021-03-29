@@ -46,6 +46,7 @@ body {
 
 /* Header Typography */
 h1, h2, h3, h4, h5, h6 { color: #272b41; font-weight: 500; }
+span { line-height: 1.75; }
 ul { list-style: none; padding: 0px; }
 a { text-decoration: none; color: var(--mp-color-gray); }
 
@@ -143,6 +144,21 @@ h6 { font-size: 0.875rem; }
     align-items: center;
 }
 
+.bg-overlay-lg { 
+    position: relative;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    line-height: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg-overlay-lg > i { 
+    font-size: 55px;
+}
+
 .overlay-front-content {
     position: absolute;
     top: 50%;
@@ -170,7 +186,7 @@ h6 { font-size: 0.875rem; }
     width: 100%;
     background: var(--mp-color-white);
     z-index: 99;
-    padding: 10px 0;
+    padding: 4px 0;
     -webkit-box-shadow: var(--mp-box-shadow);
     box-shadow: var(--mp-box-shadow);
     -webkit-animation: scale-in-ver-top 0.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
@@ -292,18 +308,25 @@ h6 { font-size: 0.875rem; }
 
 .section-skill-set .card-skill-set .card-body {
     display: inline-grid;
-    justify-items: center;
-    align-items: center;
-    text-align: center;
-    padding: 20px;
+    padding: 30px;
 }
 
-.section-skill-set .card-skill-set .card-body > i {
+.section-skill-set .card-skill-set .card-body > h4 {
+    font-size: 21px;
+    margin-top: 30px;
+}
+
+.section-skill-set .card-skill-set .card-body > span {
+    font-size: 16px;
+    margin-top: 1.5em;
+}
+
+.section-skill-set .card-skill-set .card-body > .d-grid > i {
     font-size: 50px;
     line-height: 0;
 }
 
-.section-skill-set .card-skill-set .card-body > span {
+.section-skill-set .card-skill-set .card-body > .d-grid > span {
     font-size: 16px;
     font-weight: 500;
     line-height: 21px;
